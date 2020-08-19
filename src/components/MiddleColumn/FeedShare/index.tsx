@@ -17,12 +17,12 @@ const FeedShare: React.FC = () => {
       <Container>
         <div className="write">
           <WriteIcon />
-          <span>Começar uma publicação</span>
+          <span>Start a post</span>
         </div>
         <div className="attachment">
           <button>
             <CameraIcon />
-            Foto
+            Photo
           </button>
           <button>
             <VideoCameraIcon />
@@ -30,11 +30,11 @@ const FeedShare: React.FC = () => {
           </button>
           <button>
             <DocumentIcon />
-            Documento
+            Document
           </button>
           <button>
             <ArticleIcon />
-            Escrever artigo
+            Write article
           </button>
         </div>
       </Container>

@@ -8,49 +8,42 @@ const TrendingPanel: React.FC = () => {
   return (
     <Container>
       <Panel>
-        <span className="title">Assuntos mais discutidos</span>
+        <span className="title">Today’s most viewed courses</span>
 
         <ul>
           <li>
             <span className="bullet" />
             <span className="news">
-              <span className="head">Bootcamp da Rocketseat</span>
-              <span className="subtext">há 1 d • 316 leitores</span>
+              <span className="head">Node.js with TypeScript</span>
+              <span className="subtext">Glauber Brack</span>
             </span>
           </li>
           <li>
             <span className="bullet" />
             <span className="news">
-              <span className="head">Bootcamp da Rocketseat</span>
-              <span className="subtext">há 1 d • 316 leitores</span>
+              <span className="head">AdonisJS an awesome Node.js Framework</span>
+              <span className="subtext">Glauber Brack</span>
             </span>
           </li>
           <li>
             <span className="bullet" />
             <span className="news">
-              <span className="head">Bootcamp da Rocketseat</span>
-              <span className="subtext">há 1 d • 316 leitores</span>
+              <span className="head">ReactJS for beginner</span>
+              <span className="subtext">Glauber Brack</span>
             </span>
           </li>
           <li>
             <span className="bullet" />
             <span className="news">
-              <span className="head">Bootcamp da Rocketseat</span>
-              <span className="subtext">há 1 d • 316 leitores</span>
+              <span className="head">React + Redux</span>
+              <span className="subtext">Glauber Brack</span>
             </span>
           </li>
           <li>
             <span className="bullet" />
             <span className="news">
-              <span className="head">Bootcamp da Rocketseat</span>
-              <span className="subtext">há 1 d • 316 leitores</span>
-            </span>
-          </li>
-          <li>
-            <span className="bullet" />
-            <span className="news">
-              <span className="head">Bootcamp da Rocketseat</span>
-              <span className="subtext">há 1 d • 316 leitores</span>
+              <span className="head">React Native</span>
+              <span className="subtext">Glauber Brack</span>
             </span>
           </li>
         </ul>
