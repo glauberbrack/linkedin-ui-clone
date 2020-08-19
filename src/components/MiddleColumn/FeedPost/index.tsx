@@ -15,29 +15,32 @@ import {
   SendIcon,
 } from './styles';
 
+import reactLogo from '../../../assets/images/reactjs-logo.jpg';
+import feedPost from '../../../assets/images/feed-post.jpg';
+
 const FeedPost: React.FC = () => {
   return (
     <Panel>
       <Container>
         <Row className="heading">
-          <Avatar src="https://i.imgur.com/81RtXfT.jpg" alt="Rocketseat" />
+          <Avatar src={reactLogo} alt="Post Avatar" />
           <Column>
-            <h3>Rocketseat</h3>
-            <h4>Instituição de ensino</h4>
-            <time>1 sem</time>
+            <h3>ReactJS</h3>
+            <h4>Web Framework</h4>
+            <time>1 week</time>
           </Column>
         </Row>
 
         <PostImage
-          src="https://blog.rocketseat.com.br/content/images/2019/05/Painel.png"
-          alt="Rocketseat Blog"
+          src={feedPost}
+          alt="Feed Image"
         />
 
         <Row className="likes">
           <span className="circle blue" />
           <span className="circle green" />
           <span className="circle red" />
-          <span className="number">49</span>
+          <span className="number">70</span>
         </Row>
 
         <Row>
