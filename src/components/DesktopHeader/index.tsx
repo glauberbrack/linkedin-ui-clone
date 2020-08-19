@@ -13,7 +13,7 @@ const DesktopHeader: React.FC = () => {
                 <SearchInput placeholder="Search" />
             </div>
 
-            <div className="rio">
+            <div className="right">
                 <nav>
                     <button className="active">
                         <HomeIcon />
