@@ -4,13 +4,15 @@ import Panel from '../../Panel';
 
 import { Container } from './styles';
 
+import profileImg from '../../../assets/images/profile.jpg';
+
 const ProfilePanel: React.FC = () => {
   return (
     <Panel>
       <Container>
         <div className="profile-cover"></div>
         <img
-          src="https://media-exp1.licdn.com/dms/image/C4D03AQGUWtq9rh0weQ/profile-displayphoto-shrink_200_200/0?e=1603324800&v=beta&t=iz6emhu-LvwHORTtnNJaCXU6Go7peYPTk1Sy7byCpO8"
+          src={profileImg}
           alt="Avatar"
           className="profile-picture"
         />
